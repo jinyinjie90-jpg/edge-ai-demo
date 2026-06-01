@@ -1,0 +1,22 @@
+{
+  "class_names": [
+    "A",
+    "B",
+    "E",
+    "F"
+  ],
+  "original_labels": {
+    "A": 0,
+    "B": 1,
+    "E": 4,
+    "F": 5
+  },
+  "image_size": 28,
+  "input_channels": 1,
+  "checkpoint": "models\\asl_abef_cnn.pt",
+  "best_val_accuracy": 0.7329192546583851,
+  "test_accuracy": 0.696949602122016,
+  "test_precision_macro": 0.6975651898390024,
+  "test_recall_macro": 0.7165292099081157,
+  "test_f1_macro": 0.6722586618349039
+}
